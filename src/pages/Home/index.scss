@@ -1,0 +1,69 @@
+/* Home.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-left,
+.navbar-right {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-left a,
+.navbar-right a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-left a:hover,
+.navbar-right a:hover {
+  background-color: #555;
+}
+
+.main-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 0.5rem 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #e0e0e0;
+}
+
+.sidebar ul li a:hover {
+  background-color: #d0d0d0;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 2rem;
+}
